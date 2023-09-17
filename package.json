@@ -1,0 +1,22 @@
+{
+    "name": "stylus-bridger-and-minter",
+    "version": "1.0.0",
+    "description": "TypeScript implementation of Arbitrum Stylus Testnet Bridger and Omnibase NFT minter",
+    "main": "main.js",
+    "bridge": "bridge.js",
+    "mint": "mint.js",
+    "author": "https://github.com/whonion",
+    "scripts": {
+      "start": "node main.js",
+      "bridge": "node bridge.js",
+      "mint": "node mint.js"
+    },
+    "dependencies": {
+      "dotenv": "^16.3.1",
+      "ethers": "^5.7.2"
+    },
+    "devDependencies": {
+      "@types/node": "^20.6.1"
+    }
+  }
+  
